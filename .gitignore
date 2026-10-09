@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets: never commit API keys or account details
+.env
+.env.*
+secrets*
+
+# Private betting data stays on your machine
+data/private/
+*.private.csv
+screenshots/
+
+# OS
+.DS_Store
+Thumbs.db
